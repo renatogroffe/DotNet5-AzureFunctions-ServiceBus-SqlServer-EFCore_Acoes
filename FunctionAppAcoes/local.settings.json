@@ -1,0 +1,13 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "AzureServiceBus_Connection": "",
+    "AzureServiceBus_Topic": "topic-acoes",
+    "BaseAcoes_Connection": ""
+  },
+  "Host": {
+    "LocalHttpPort": "7074"
+  }
+}
