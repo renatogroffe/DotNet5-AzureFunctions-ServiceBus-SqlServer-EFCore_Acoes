@@ -72,14 +72,14 @@ namespace FunctionAppAcoes
 
                 logger.LogInformation(MSG_SUCESSO_NOTIFICACAO);
 
-                var responseBadRequest = req.CreateResponse(HttpStatusCode.OK);
-                responseBadRequest.WriteAsJsonAsync(
+                var responseOKRequest = req.CreateResponse(HttpStatusCode.OK);
+                responseOKRequest.WriteAsJsonAsync(
                     new
                     {
                         Sucesso = true,
                         Mensagem = MSG_SUCESSO_NOTIFICACAO
                     });
-                return responseBadRequest;
+                return responseOKRequest;
             }
             else
             {
